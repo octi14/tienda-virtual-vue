@@ -31,17 +31,19 @@ export default {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-content: center;
-  padding: 1rem;
   position: fixed;
+  top: 0;
   margin: 0;
 }
 
 nav {
   display: flex;
+  margin-right: 2rem;
   align-items: center;
 }
 
 .container img {
+  margin: 1rem;
   height: 100px;
 }
 
