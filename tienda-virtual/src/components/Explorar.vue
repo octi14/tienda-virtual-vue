@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="explorar">
     <h1>Componente 1</h1>
     <div class="row"></div>
     <div class="row"></div>
@@ -18,5 +18,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 </style>
