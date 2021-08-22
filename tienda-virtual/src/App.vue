@@ -14,6 +14,10 @@ export default {
 </script>
 
 <style>
+body {
+  margin:0;
+}
+
 #app {
   margin: 0;
   padding: 0;
@@ -22,7 +26,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 110px;
 }
 .container {
   background-color: #7dfcc2;
@@ -51,7 +54,7 @@ nav {
 }
 
 h3 {
-  margin: 40px 0 0;
+  margin: 0 0;
 }
 ul {
   list-style-type: none;

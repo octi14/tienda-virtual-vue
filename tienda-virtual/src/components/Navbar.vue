@@ -43,13 +43,12 @@ export default {
 
 nav {
   display: flex;
-  margin-right: 2rem;
   align-items: center;
 }
 
 .container img {
+  height: 50px;
   margin: 1rem;
-  height: 100px;
 }
 
 h3 {
