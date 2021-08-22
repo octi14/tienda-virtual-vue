@@ -1,22 +1,14 @@
 <template>
-  <div class="container">
-    <a href="#"><img src="./assets/logo.png" alt="Logo"></a>
-    <nav>
-      <ul>
-        <li><router-link to="/explorar">Explorar</router-link></li>
-        <li><router-link to="/ofertas">Ofertas</router-link></li>
-        <li><router-link to="/publicar">Publicar</router-link></li>
-        <li><router-link to="/">Contacto</router-link></li>
-      </ul>
-    </nav>
-  </div>
+  <Navbar/>
   <router-view />
 </template>
 
 <script>
+import Navbar from './components/Navbar.vue'
 export default {
   name: 'App',
   components: {
+    Navbar
   },
 }
 </script>

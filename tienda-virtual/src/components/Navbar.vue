@@ -1,24 +1,29 @@
 <template>
   <div class="container">
-    <a href="#"><img src="../assets/logo.png" alt="Logo"></a>
+    <a href="#"><img :src="image" /></a>
     <nav>
       <ul>
-        <li><a href="/">Explorar</a></li>
-        <li><a href="/ofertas">Ofertas</a></li>
-        <li><a href="/publicar">Publicar</a></li>
-        <li><a href="/contacto">Contacto</a></li>
-        <Link to="/">Main Menu</Link>
+        <li><router-link to="/explorar">Explorar</router-link></li>
+        <li><router-link to="/ofertas">Ofertas</router-link></li>
+        <li><router-link to="/publicar">Publicar</router-link></li>
+        <li><router-link to="/">Contacto</router-link></li>
       </ul>
     </nav>
   </div>
 </template>
 
 <script>
+import image from '../assets/logo.png'
 export default {
   name: 'Navbar',
   props: {
     msg: String
-  }
+  },
+  data: function () {
+        return {
+            image: image
+        }
+    }
 }
 </script>
 
