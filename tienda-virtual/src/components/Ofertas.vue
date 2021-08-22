@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Ofertas',
+  name: 'Publicar',
   props: {
     msg: String
   }
@@ -18,7 +18,6 @@ export default {
 .hello {
   margin-top: 110px;
 }
-
 h3 {
   margin: 40px 0 0;
 }

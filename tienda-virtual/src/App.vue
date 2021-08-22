@@ -14,7 +14,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'App',
   components: {
@@ -73,9 +72,5 @@ li {
 a {
   color: #42b983;
   text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: rgb(94, 110, 68);
 }
 </style>
