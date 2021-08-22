@@ -44,17 +44,20 @@ export default {
   top: 0;
   margin: 0;
 }
+
 nav {
   display: flex;
   margin-right: 2rem;
   margin-top: 0rem;
   align-items: center;
 }
+
 .container img {
   margin: 1rem;
   margin-top: 0rem;
   height: 100px;
 }
+
 h3 {
   margin: 40px 0 0;
 }
@@ -69,8 +72,5 @@ li {
 a {
   color: #42b983;
   text-decoration: none;
-}
-nav ul li a:hover {
-  color: rgb(94, 110, 68);
 }
 </style>

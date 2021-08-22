@@ -1,6 +1,6 @@
 <template>
-  <div class="publicar">
-    OFERTAS
+  <div class="ofertas">
+    <div class="row"></div>
   </div>
 </template>
 
